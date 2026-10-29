@@ -1,0 +1,24 @@
+.hero.small{padding:34px 0 26px}
+.hero.small h1{font-size:clamp(28px,5vw,44px)}
+.hero.small .quote{margin:0}
+.notice{background:#FFF4D6;border:2px solid var(--gold);border-radius:14px;padding:14px 18px;margin-bottom:22px;font-size:17px;color:var(--maroon)}
+.notice b{display:block;font-size:19px}
+.steps{margin:0 0 26px;padding-left:22px;font-size:17px;color:var(--ink)}
+.steps li{margin-bottom:6px}
+form{display:block}
+fieldset{border:2px solid var(--gold);border-radius:16px;background:rgba(255,255,255,.7);margin:0 0 18px;padding:16px 18px 18px}
+legend{padding:0 8px;font-weight:800;font-size:19px;color:var(--maroon)}
+label{display:block;margin:12px 0 4px;font-weight:700;font-size:16px}
+input:not([type=radio]):not([type=checkbox]),textarea{width:100%;font:500 17px/1.5 'Noto Sans Telugu',sans-serif;color:var(--navy);padding:10px 12px;border:2px solid #E3C987;border-radius:10px;background:#fff}
+input:focus,textarea:focus,button:focus-visible{outline:3px solid var(--maroon);outline-offset:1px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:520px){.row{grid-template-columns:1fr}}
+label.opt{display:flex;gap:10px;align-items:flex-start;font-weight:600;padding:8px 6px;border-radius:10px;cursor:pointer}
+label.opt input{margin-top:7px;width:20px;height:20px;accent-color:#7A1F1F;flex:none}
+.decl{margin:6px 0 16px}
+.hint{margin:0 0 6px;color:var(--ink);font-size:15.5px}
+.docs{margin:0;padding-left:22px;font-size:16.5px;color:var(--ink)}
+.err{background:#fde8e8;border:2px solid #b3261e;color:#7a0f0a;border-radius:10px;padding:10px 14px;font-weight:700}
+.btn.big{width:100%;margin:6px 0;text-align:center}
+.btn[disabled]{opacity:.5;cursor:not-allowed;transform:none}
+.privacy{margin:14px 0 0;font-size:14.5px;color:var(--ink)}

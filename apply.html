@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>పంచాయతీ నిధి — దరఖాస్తు</title>
+<meta name="theme-color" content="#7A1F1F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="apply.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html#home"><svg width="56" height="56" class="logo" viewBox="0 0 900 900" aria-hidden="true" style="display: block; flex: none"><defs><clipPath id="lg"><circle cx="450" cy="450" r="374"/></clipPath></defs>
+<circle cx="450" cy="450" r="420" fill="none" stroke="#7A1F1F" stroke-width="22"/>
+<circle cx="450" cy="450" r="392" fill="none" stroke="#C4952F" stroke-width="12"/>
+<circle cx="450" cy="450" r="374" fill="#FFFAEB"/>
+<g clip-path="url(#lg)">
+<circle cx="610" cy="225" r="60" fill="#C4952F"/>
+<g stroke="#C4952F" stroke-width="14" stroke-linecap="round"><line x1="692.0" y1="225.0" x2="726.0" y2="225.0"/><line x1="681.0" y1="266.0" x2="710.5" y2="283.0"/><line x1="651.0" y1="296.0" x2="668.0" y2="325.5"/><line x1="610.0" y1="307.0" x2="610.0" y2="341.0"/><line x1="569.0" y1="296.0" x2="552.0" y2="325.5"/><line x1="539.0" y1="266.0" x2="509.5" y2="283.0"/><line x1="528.0" y1="225.0" x2="494.0" y2="225.0"/><line x1="539.0" y1="184.0" x2="509.5" y2="167.0"/><line x1="569.0" y1="154.0" x2="552.0" y2="124.5"/><line x1="610.0" y1="143.0" x2="610.0" y2="109.0"/><line x1="651.0" y1="154.0" x2="668.0" y2="124.5"/><line x1="681.0" y1="184.0" x2="710.5" y2="167.0"/></g>
+<path d="M60 700 Q 450 600 840 700 L 840 860 L 60 860 Z" fill="#7A1F1F"/>
+<path d="M60 700 Q 450 600 840 700" fill="none" stroke="#C4952F" stroke-width="10"/>
+<path d="M450 665 Q 440 590 450 500" fill="none" stroke="#2F6B3A" stroke-width="18" stroke-linecap="round"/>
+<path d="M450 560 C390 560 340 525 322 465 C385 462 435 495 450 560 Z" fill="#2F6B3A"/>
+<path d="M450 500 C450 430 490 380 560 372 C560 440 520 490 450 500 Z" fill="#3E8A4B"/>
+</g></svg><span>కటికపల్లి గ్రామ పంచాయతీ</span></a>
+  <nav aria-label="ప్రధాన మెనూ">
+    <a href="index.html#promises">← వాగ్దానాలు</a>
+    <a href="index.html#contact">సంప్రదించండి</a>
+  </nav>
+</header>
+<main>
+<section class="hero small">
+  <div class="wrap">
+    <p class="eyebrow">వాగ్దానం 1</p>
+    <h1>పంచాయతీ నిధి — దరఖాస్తు</h1>
+    <p class="quote">ఆపదలో ఉన్నవారికి ప్రతి నెలా ₹50,000. తిరిగి చెల్లించాల్సిన పనిలేదు.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap narrow">
+    <div id="closed" class="notice" hidden>
+      <b>దరఖాస్తులు ఎన్నికల తర్వాత ప్రారంభమవుతాయి.</b>
+      ఈ పేజీ దరఖాస్తు విధానాన్ని చూపించడానికి మాత్రమే. ఇప్పుడు పంపడం వీలుకాదు.
+    </div>
+
+    <ol class="steps">
+      <li><b>ఫారమ్ నింపండి.</b> మీ వివరాలు, కారణం, కావలసిన మొత్తం రాయండి.</li>
+      <li><b>వాట్సాప్‌లో పంపండి.</b> ఫారమ్ నింపాక వాట్సాప్ తెరుచుకుంటుంది. అక్కడ పంపండి, పత్రాల ఫోటోలు కూడా జతచేయండి.</li>
+      <li><b>కమిటీ నిర్ణయం.</b> అన్ని గ్రామాల ప్రతినిధుల కమిటీ పరిశీలించి, మీకు తెలియజేస్తుంది.</li>
+    </ol>
+
+    <form id="f" novalidate>
+      <fieldset>
+        <legend>1. మీ వివరాలు</legend>
+        <label for="name">పేరు *</label>
+        <input id="name" required autocomplete="name">
+        <label for="father">తండ్రి / భర్త పేరు *</label>
+        <input id="father" required>
+        <div class="row">
+          <div><label for="age">వయస్సు</label><input id="age" inputmode="numeric" maxlength="3"></div>
+          <div><label for="members">కుటుంబ సభ్యుల సంఖ్య</label><input id="members" inputmode="numeric" maxlength="2"></div>
+        </div>
+        <label for="village">గ్రామం, వీధి / ఇంటి నంబర్ *</label>
+        <input id="village" required>
+        <label for="phone">ఫోన్ నంబర్ *</label>
+        <input id="phone" type="tel" inputmode="numeric" maxlength="10" placeholder="10 అంకెలు" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. సహాయం కోరే కారణం *</legend>
+        <label class="opt"><input type="radio" name="reason" value="వైద్య అత్యవసరం (ఆసుపత్రి ఖర్చులు)"> వైద్య అత్యవసరం (ఆసుపత్రి ఖర్చులు)</label>
+        <label class="opt"><input type="radio" name="reason" value="ప్రమాదం"> ప్రమాదం</label>
+        <label class="opt"><input type="radio" name="reason" value="ప్రకృతి విపత్తు లేదా ఇంటికి నష్టం"> ప్రకృతి విపత్తు లేదా ఇంటికి నష్టం</label>
+        <label class="opt"><input type="radio" name="reason" value="విద్య (ఫీజు లేదా పుస్తకాలు)"> విద్య (ఫీజు లేదా పుస్తకాలు)</label>
+        <label class="opt"><input type="radio" name="reason" value="ఇతర"> ఇతర</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. సమస్య, కావలసిన మొత్తం</legend>
+        <label for="issue">సమస్య ఏమిటి? (2-3 వాక్యాల్లో) *</label>
+        <textarea id="issue" rows="4" required></textarea>
+        <div class="row">
+          <div><label for="amount">కోరే మొత్తం (₹) *</label><input id="amount" inputmode="numeric" required></div>
+          <div><label for="when">ఎప్పటిలోగా అవసరం?</label><input id="when" placeholder="ఉదా: 10 రోజుల్లో"></div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. జతచేయాల్సిన పత్రాలు</legend>
+        <p class="hint">వాట్సాప్ తెరుచుకున్న తర్వాత ఈ ఫోటోలను అదే చాట్‌లో పంపండి.</p>
+        <ul class="docs">
+          <li>ఆసుపత్రి బిల్లులు లేదా వైద్యుని సలహా పత్రం (వైద్య కారణమైతే)</li>
+          <li>ఫీజు రశీదు లేదా పాఠశాల నుండి లేఖ (విద్య అయితే)</li>
+          <li>నష్టం ఫోటోలు (ఇల్లు లేదా ప్రమాదం అయితే)</li>
+          <li>ఏదైనా గుర్తింపు కార్డు నకలు</li>
+        </ul>
+      </fieldset>
+
+      <label class="opt decl"><input type="checkbox" id="decl"> నేను ఇచ్చిన వివరాలన్నీ నిజమని ప్రకటిస్తున్నాను. *</label>
+
+      <p id="err" class="err" role="alert" hidden></p>
+      <button class="btn gold big" id="send" type="submit">వాట్సాప్‌లో పంపండి</button>
+      <button class="btn light big" id="copy" type="button">సందేశం కాపీ చేయండి</button>
+      <p class="privacy">ఈ పేజీ మీ వివరాలను ఎక్కడా నిల్వ చేయదు. మీరు వాట్సాప్‌లో పంపినప్పుడు మాత్రమే అవి +91 9036047478 (ఎస్. లోకేష్) కు చేరతాయి.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+  <p>ఎస్. విమల గోవర్ధన్ నాయుడు — సర్పంచ్ అభ్యర్థి, కటికపల్లి గ్రామ పంచాయతీ</p>
+</footer>
+<script src="apply.js"></script>
+</body>
+</html>
