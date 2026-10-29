@@ -68,3 +68,4 @@ footer .small{font-size:13px;opacity:.8;font-weight:400}
 
 .card-link{display:inline-block;margin-top:12px;padding:8px 18px;border:2px solid var(--gold);border-radius:999px;background:var(--maroon);color:var(--cream);font-weight:700;font-size:16px;text-decoration:none}
 .card-link:hover{background:#561515}
+.card p.card-note{margin:8px 0 0;font-size:14px;font-weight:700;color:var(--maroon)}
