@@ -25,7 +25,7 @@ var PHONE = '919036047478';
     if (missing.length) { err.hidden = false; err.textContent = 'దయచేసి నింపండి: ' + missing.join(', '); err.scrollIntoView({behavior:'smooth',block:'center'}); return null; }
     err.hidden = true;
     return [
-      'పంచాయతీ నిధి — దరఖాస్తు',
+      'సర్పంచ్ సేవా నిధి — దరఖాస్తు',
       'పేరు: ' + val('name'),
       'తండ్రి / భర్త: ' + val('father'),
       'వయస్సు: ' + (val('age') || '-'),
@@ -36,7 +36,7 @@ var PHONE = '919036047478';
       'సమస్య: ' + val('issue'),
       'కోరే మొత్తం: ₹' + val('amount'),
       'ఎప్పటిలోగా: ' + (val('when') || '-'),
-      'నేను ఇచ్చిన వివరాలన్నీ నిజమని, గత 5 ఏళ్లలో పంచాయతీ నిధి నుండి సహాయం పొందలేదని ప్రకటిస్తున్నాను.'
+      'నేను ఇచ్చిన వివరాలన్నీ నిజమని, గత 5 ఏళ్లలో సర్పంచ్ సేవా నిధి నుండి సహాయం పొందలేదని ప్రకటిస్తున్నాను.'
     ].join('\n');
   }
   $('f').addEventListener('submit', function (e) {
